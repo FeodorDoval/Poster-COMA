@@ -1,0 +1,9 @@
+ //======================================== Structure des Recherches =========================================
+
+ //============================ Repartition des Recherches ============================
+
+- Theses de Stiegler (Philemon) - (Alex)
+- Maketing ciblee (Lucas)
+- Marketing de l'attention (Leon)
+- Techniques sur les algorithmes (Feodor)
+
