@@ -1,0 +1,63 @@
+https://interstices.info/les-systemes-de-recommandation-categorisation/
+https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/
+http://binaire.blog.lemonde.fr/2016/12/27/tout-ce-que-vous-devriez-savoir-sur-la-reco-ou-la-reco/
+https://www.archimag.com/veille-documentation/2017/10/12/internet-enfermer-bulle-informationelle
+http://www.inter-ligere.fr/index.php/fr/social/1006-a-lire-la-democratie-des-credules-de-gerald-bronner-3eme-partie-les-biais-cognitifs
+https://fr.wikipedia.org/wiki/Bulle_de_filtres
+https://fr.wikipedia.org/wiki/PageRank
+
+
+proposition de plan de sujet à aborder :
+
+Sujet : enfermement dans une bulle informationelle/d'intérêt/cognitive par les algmorithmes
+
+1. Raisons (historiques?) de la situation actuelle, conséquence : conception d'alygortimes de recommandation 
+  le développement du numérique à la fin du 20 e siècle début du 21 e siècle a permis une production de contenus/d'informations par tout le monde, pour tout le monde, transmissible en tout temps et rapidement.
+  Ces différentes raisons ont conduit à un flux d'informations/de contenus numériques toujours plus important pour l'utilisateur, qui est dans le besoin qu'on trie pour lui le contenue recu.
+  C'est ce qui a mené à la conception d'algorithme proposant les contenus à l'utilisateur, mode de fonctionnement quasiment utilisé par toutes les plateformes numériques actuelles.
+  Ces algorithmes ont du être pensé d'une certaine manière. dépendant de paramètres et renoyant un certain type d'informations.
+  
+2. fonctionnement des algorithmes de recommandation
+  2.1 la colletion de données
+  Recommendation de contenu basé sur le profil de l'utilisateur, profil complété par une multitude de données collectées liées à l'expérience de l'utilisateur sur la plateforme.
+  Big data collectant notammant le contenu consommé, les recommenantions de l'utilisateur (mentions j'aime p.ex.), les interactions de l'utilisateur avec d'autre utilisateurs si possibles (abbonement sur twitter p.ex.)
+  Ces algorithmes tentent également de collecter des données par rapport à la qualité de l'expérience de consommation : temps passé sur une video youtube, nombre d'écoutes d'une chanson sur spotify etc.
+  Page rank par exemple donne un score auxc pages web propotionel au nombre de fois qu'un utilisateur "se déplacant" aléatoirement sur un grahe de pages web rencontrerait la page web en question.
+  [explciations scientifiques plus aprofndies sur le sujet ? chaine de Markov ? probabilités ?]
+  Pour cela on recolte en particulier le nombre de référencement de la page web sur d'autres page webs
+  
+  2.2 Stratégie de reccomendation : en utilisant ces données, on va recommander un certain type de contenu basé sur différentes approches
+  
+  2.2.1 Basée sur le contenu
+    Il sagit de reccomander à l'utilisateur ce qui est le plus succpetible de lui plaire, en cherchant des contenues similaires à ceux consommés, à ceux qui lui ont plu, à ses centres d'intérets, lui proposé du contenu référence dans d'autres contenus qu'il a consommé.
+  C'est une approche qui relève du " vous avez aimez ceci, vous aimerez surement cela ... "
+  + critique de ce stystème : avantage/inconvénient //ctrique de l'algorithme en soi, pas des conséquences pour l'utilisateur c.f le premier lien
+  + exemples
+  
+  2.2.2 basée sur le filtrage collaboratif
+     Ce type d'algorithme s'intéresse à regrouper des utilisateurs proches en comparant leur données similiaires : consommation, interactions avec d'autres utilisateurs.
+     Ce rapprochement fait, l'algorithme peut constituer des groupes approximatifs d'utilisateurs, un utilisateur pouvant appartenir à plusieurs groupes.
+     l'algorithme va alors proposer à l'utilisateur du contenu consommés par des utilisateurs similaires à lui, dont il appartient à un même groupe.
+    + avantages/inconvénient : exemple d'inconviénient : l'algorithme diminiue en efficacité avec l'augmentation du nombre d'utilisateur
+    + exmemples
+  2.2.4 Méthode hybride
+  Combinaisons des méthodes précédentes, tentant de palier aux inconvénients de chaqun et de combiner les avantages pour une meilleure efficacité.
+  (3 sous parties, 3 type des combinaisons principales décrites dans le lien 1.)
+  2.2.3 Recommendation de contenu populaire
+    De moins en moins efficaces, propose les contenues le plus consommé, pensant que l'information .
+ 
+ 3. Consélquences des algorithmes de recommenantion
+ Définition de la bulle informationelle/cognitive/d'intéret
+ Ajouter dans cette section des exemples concrets à l'appui : par exemple en politique (Donald trump) [Aspects sociologiques, chiffres concrets]
+ C'est ici qu'on présente concretement les problématiques/enjeux de notre projet
+  3.1 la désinformation
+    algo 1 :L'enfermement mêne à un désinformation de l'utilisateur qui consomme des produits similaires à ceux consommés précédement, ce qui le conforte dans ses idées et ajoute une dimension de crédibilité à l'information consommé(Plus on la voit plus on y croit.)
+    algo 2 : Nous met en relation avec d'autres utilisateur ayant les mêmes avis que nous, ce qui peut à nouveau mener à un confortement dans nos opinions ( beaucoup pensent commen moi, cela doit être vrai)
+    algo 3 : Convergence de tous les contenus vers un seul : le plus populaire ce qui même à un seul type de contenu qui peut être faux. Convergence vers un seul type de culture également (occidentale par exemple)
+  3.2 Stiegler, renouvellement du désir/ perte d'individualisation et d'esprit critique etc.
+  
+ 4.Solutions aux problèmes du point 3
+ 5. crtiques/conclusion 
+  
+    
+  
