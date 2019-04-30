@@ -1,0 +1,28 @@
+2.2 Stratégie de reccomendation
+  Les données une fois collectées, il vient de les exploiter afin de recommander le meilleur contenu. On distingue trois méthodes de recommendation, se démarquant par les catégories de données utilisées principalement.
+ /* 2.2.1 Basée sur le contenu
+ 
+  Ici, on s'intéresse essentiellement au contenu consommé par l'utilisateur. Il s'agit de proposer à l'utilisateur des produits similaires à ceux précédemment consommés.
+  L'algorithme s'inéresse à des informations pouvant déterminer à quel point le produit a plu. Par exemple, le temps passé sur une vidéo Youtube, le nombre d'écoutes d'une musique sur Spotify, ou encore  un commentaire laissés sur un produit acheté sur Amazone. Sur les plateformes ou ceci est possible, des informations importantes se trouve également directement dans le profil de l'utilisateur. C'est une des raisons participant au fait que de plus en plus de plateformes demandent ou proposent d'avoir un profil pour profiter plainement de son expérience d'utilisateur. 
+  L'algorithme tente, en intersectant grand nombre de ces données, de proposer un produit suceptible de plaire. C'est la politique de "Vous avez aimé ceci, vous aimerez surement cela...".
+  Une telle stratégie présente des nombreux avantages. Par exemple, elle tient compte uniquement de l'expérience l'utilisateur seul, c'est-à-dire que le profil qu'elle construit dépend uniquement de celui qui consomme. Elle n'aura donc pas de mal à proposer des produits assez atypiques, comme le cas de quelqu'un écoutant un style de musique peu poulaire sur Spotify. 
+  En revanche, la complexité à recommander augmente avec le nombre de produits consommés, ce qui n'est pas une bonne chose. Les profils deviennent de plus en plus difficiles à dresser, à mesure que les centres d'intérêts se mutiplient.
+  De plus, il est très difficile de recommander un nouveau profil, n'ayant pas encore consommé. Cette stratégie est extrêmement dépendante du temps inversti par l'utilisateur sur la plateforme.  
+  
+  2.2.2 basée sur le filtrage collaboratif
+     
+     Ce type d'algorithme s'intéresse à regrouper des utilisateurs proches. Il y a deux manières de rapprocher deux utilisateurs. D'une part, il est possible de rapprocher deux utilisateurs par leur consommation : de manières similaire à la reccomandation basée sur le contenu, deux utilisateurs seront proches s'ils consomment les mêmes produits.
+On peut également rapprocher deux utilisateurs en effetuant des similitudes entre leur profil, comme la situation géographqiue par exemple, ou tout simplement par une liste d'amis ou d'abonnés lorsque la plateforme y a accès, Facebook et Twiter étant de bons exemples. Cela pousse donc certaines structures ne se présentant pas réellement comme un réseau social à se développer comme tel, il est par exemple possible de s'abonner au profil des utilisateurs sur Spotify.
+
+     Ces rapprochements faits, l'algorithme va alors pouvoir proposer des contenus consommés par des personnes similaires à l'utilisateur. on peut résumé cela par la phrase "un tel a aimé ceci, vous devriez aimez cela...". 
+
+  A nouveau, cette méthode à ses propres avantages et inconvénients. Elle se base sur une plus grande diversités de données, et donc peut proposer facilement plusieurs type de contenus. Cependant, elle peut proposer des contenus pas toujours adpatés. En effet, il n'est pas guaranti que deux utilisateurs ayant les même gouts sur un sujet s'entendent sur d'autres, et pourrait donc proposer des produis moins succeptibles de plaire.
+  
+  2.2.3 Recommendation de contenu populaire
+    Cette méthode consiste à recommander les contenus les plus populaires, la défintion de ce therme changeant en fonction de chaque algorithme. 
+    Par exemple, pour l'algortihme PageRank de google, il s'agit de proposer les pages webs les plus référencées par d'autre. Concrètement, la page se voit attribuer un score, en fonction du nombre de fois qu'un utilisateur se déplacement de manière aléatoire sur le web rencontrerait la page en question. 
+    Sur Youtube, un bon indicateur de la popularité d'une vidéo peut simplement être perçue comme le nombre de vues et de " mentions j'aimes" laissées sur la vidéo.
+    On peut supposé que la fiabilité à être apprécié et la qualité d'un contenu augmente avec sa popularité, mais cette méthode est moins efficace pour recommander un utilisateur ayant des préférences de contenus moins populaires.
+   
+  2.2.4 Méthode hybride
+La plupart des algorithmes actuels n'utilisent pas que une de ces stratégies mais les combinent, afin d'accroître leur efficacité. Il s'agit de palier aux inconvénient de chaqune pour optimiser la recommndation en proposant un produit toujours plus propice de plaire. Ainsi, dans certaines situations il sera plus judicieux de se baser sur le filtrage collaboratif, dans le cas d'un utilisateur ayant peu consommé, mais présentant de fortes similitudes avec d'autres profils. De même, une personne consommant uniquement un certain type de produit n'aura pas forcément envie de se faire recommander un produit ne correspondant pas à ses goûts. La lecture automatique sur Youtube en est un très bon exemple : elle propose en même temps des contenus similaires aux précédent, mais tend à converger tout de même vers les contenus les plus populaires. De plus étant un choix par défaut à enlever, elle "nudge" l'utilisateur en le poussant à visionner un nouvelle vidéo.
