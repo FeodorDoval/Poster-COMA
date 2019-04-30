@@ -1,0 +1,27 @@
+Fonctionnement des algortihmes :
+Collection de données:
+1)
+Comment les algorithmes de recommendation filtrent et collectent nos données ?
+Avant de pouvoir nous proposer une liste de recommendations, un algorithme cherche a collecter un certain nombre d'informations pour caractériser et donner un profil a l'utilisateur. 
+Deux grands type de collecte de données se démarquent: 
+La collecte de données explicite  : Ce type de collecte va dirèctement recueillir les informations à l'utilisateur, par exemple en prenant en compte ce qu'il a pu "liker" sur certains réseaux, s'il a partagé tel ou tel contenu... Ce type de collecte,contrairement au second cité ci-dessous, a l'avantage d'identifier clairement l'utilisateur, de pouvoir faire la différence entre plusieurs personnes qui utiliseraient des applications à partir du même téléphones ou ordinateur.
+//on peut citer le biais de déclaration comme inconvénient , encore quelque recherche a faire la dessus// 
+La collecte de données implicites : Les données de l'utilisateur vont être collectées sans même que celui ne s'en rende compte, de manière implicite. Cette collecte se base sur l'analyse des positions GPS pour certaines applications comme Snapchat, Instagram ou encore Tinder, sur les listes de musique écoutées par l'utilisateur pour des plateforme musicales comme Deezer ou Spotify, ou encore sur l'analyse de la fréquence à laquelle un utilisateur se connecte sur une page. Bien que ces données soient facilement collectées, il n'en est pas moins facile d'attribuer ces données à un utilisateur comme cité plus haut.
+//biais d'attribution //
+
+https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/
+
+
+Partie 3: Désir alternatif
+De nos jours, une solution pour palier à la concentration et au manque de diversité des contenus multimédia, bien trop souvent limités par des algorithmes de recommendation, serait de proposer des ressources nouvelles aux consommateurs, par le biais de site mettant en avant ces dernières.
+Un exemple concret et parlant serait la plateforme Forgotify, qui regroupe plus de 4 millions de titres oubliés et méconnus sur Spotify. Cette solution a pour but de sortir les auditeurs d'un enfermement autour d'un style musical, de playlist proposées par les algorithmes souvent  redondantes. Finallement cette plateforme permet de découvrir du contenu original, tout en permettant aux auteurs de gagner en visibilité. 
+Dans une optique similaire, Soundcloud est une plateforme de musique qui se veut très facilement accèssible, et permet à tout type d'artiste de proposer son contenu gratuitement. Une particularité de ce média social est qu'il est très facile d'y trouver un contenu nouveau, proposé par des artistes souvent inconnus, des remix. En contrepartie les musiques et albums les plus populaires y seront souvent absents. 
+Si Léon ne l'a pas fait: 
+Proposition de "petits getstes" pour sortir de sa bulle filtrante : 
+-Site qui permet de se documenter de diffrents points de vue politiques allsides.com .
+-READ ACROSS THE AISLE
+
+https://www.20min.ch/ro/multimedia/stories/story/Forgotify-deniche-les-morceaux-jamais-ecoutes-27879534?httpredirect
+https://www.lesinrocks.com/2014/01/30/musique/musique/forgotify-le-site-qui-passe-les-titres-jamais-joues-de-spotify/
+https://en.wikipedia.org/wiki/SoundCloud
+http://jam.unine.ch/index.php/2017/05/17/sortez-moi-de-ma-bulle-filtrante/
