@@ -5,20 +5,20 @@
  
   Ici, on s'intéresse essentiellement au contenu consommé par l'utilisateur. Il s'agit de proposer à l'utilisateur des produits similaires à ceux précédemment consommés.
   Par exemple, le temps passé sur une vidéo Youtube, le nombre d'écoutes d'une musique sur Spotify, ou encore  un commentaire laissé sur un produit acheté sur Amazone sont des informations importantes pour un tel algorithme. 
-  L'algorithme tente, en intersectant un grand nombre de ces données, de proposer un produit suceptible de plaire. C'est la politique de "Vous avez aimé ceci, vous aimerez surement cela...".
+  Il tente, en intersectant un grand nombre de ces données, de proposer un produit suceptible de plaire. C'est la politique de "Vous avez aimé ceci, vous aimerez surement cela...".
   Une telle stratégie a comme avantage le fait qu'elle tient compte uniquement de l'expérience de l'utilisateur seul, c'est-à-dire que le profil qu'elle construit dépend uniquement de celui qui consomme. Elle peut donc dresser des profils assez originaux, comme dans la situtation de quelqu'un écoutant un style de musique peu poulaire sur Spotify par exemple. 
   En revanche, il est difficile de recommander une nouvelle personne, n'ayant pas encore beaucoup, voire pas du tout consommé. On appele cela "le cold-start".  
   
   2.2.2 basée sur le filtrage collaboratif
      
      Ce type d'algorithme s'intéresse à regrouper des utilisateurs similaires. Il est possible de rapprocher des utilisateurs par leur consommation : deux utilisateurs seront proches s'ils consomment les mêmes produits.   
-  On peut également grouper deux utilisateurs en effetuant des similitudes entre leur informations personelles, deux personnes ayant des situations géographique proches par exemple, ou tout simplement par des amis ou abonnées communs, sur des plateforme comme Facebook et Twitter. Cela pousse donc certaines structures ne se présentant pas réellement comme un réseau social à se développer comme tel : il est par exemple possible de s'abonner au profil des utilisateurs sur Spotify.
+  On peut également grouper deux utilisateurs en effetuant des similitudes entre leur informations personelles, deux personnes ayant des situations géographique proches par exemple, ou tout simplement par des amis ou abonnées communs, sur des plateforme comme Facebook et Twitter. Cela pousse certaines structures ne se présentant pas réellement comme un réseau social à se développer comme tel : il est par exemple possible de s'abonner au profil des utilisateurs sur Spotify.
      Ces rapprochements faits, l'algorithme va alors proposer des contenus consommés par des personnes similaires à l'utilisateur. Cela peut se résumer par la phrase "Un tel a aimé ceci, vous aimerez surement cela...". 
   A nouveau, cette méthode à ses propres avantages et inconvénients. Elle se base sur une plus grande diversités de données, et donc peut proposer facilement plusieurs type de contenus. Cependant, elle peut proposer des contenus pas toujours adpatés. En effet, il n'est pas guaranti que deux utilisateurs ayant les même gouts sur un sujet s'entendent sur d'autres, et pourrait donc recommander des produis moins succeptibles de plaire.
   
   2.2.3 Recommendation de contenu populaire
     Cette méthode consiste à recommander les contenus les plus populaires, la défintion de ce therme changeant en fonction de chaque algorithme. 
-    Par exemple, pour l'algortihme PageRank de google, il s'agit de proposer les pages webs les plus référencées par d'autre. Concrètement, la page se voit attribuer un score, en fonction du nombre de fois qu'un utilisateur se déplacement de manière aléatoire sur le web rencontrerait la page en question. 
+    Par exemple, pour l'algortihme PageRank de google, lors d'une recherche ciblée, il s'agit de proposer les pages webs les plus référencées par d'autre. Concrètement, la page se voit attribuer un score, en fonction du nombre de fois qu'un utilisateur se déplacement de manière aléatoire sur le web rencontrerait la page en question. 
     On peut supposer qu'un produit populaire aura de bonnes chances de plaire, mais cette méthode est moins efficace pour recommander un utilisateur ayant des préférences plus originales.
    
   2.2.4 Méthode hybride et optimisation des algorithmes
